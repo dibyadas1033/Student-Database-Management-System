@@ -178,7 +178,7 @@ def admin_menu():
     print("\n++++++ Welcome to  Student Management System ++++++\n")
     while True:
         print("\n=======Operations======")
-        print("1:addStuddent\n2:addTeacher\n3:findteacher\n4:findstudent\n5:update marks\n6:delete\n7:Display Students\n8:Display Teachers\n9-exit")
+        print("1:addStuddent\n2:addTeacher\n3:findteacher\n4:findstudent\n5:update marks\n6:Delete\n7:Display Students\n8:Display Teachers\n9-exit")
         ch=int(input("enter choice : "))
         if ch == 1:
             idd =input("enter id:")
